@@ -110,26 +110,17 @@ let footer = $(`
     <!-- Social media icons for footer -->
 
 <div class="social-icons-footer">
-  <a class="social-icon-footer twitter" href="" target="_blank" rel="author">
-    <i class="fab fa-twitter"></i>
-      </a>
-  <a class="social-icon-footer dribbble" href="" target="_blank" rel="author">
-    <i class="fab fa-dribbble"></i>
-      </a>
-  <a class="social-icon-footer linkedin" href="" target="_blank" rel="author">
-    <i class="fab fa-linkedin-in"></i>
-      </a>
-  <a class="social-icon-footer medium" href="" target="_blank" rel="author">
-    <i class="fab fa-medium-m"></i>
-      </a>
-  <a class="social-icon-footer kaggle" href="" target="_blank" rel="author">
-    <i class="fab fa-kaggle"></i>
-      </a>
-  <a class="social-icon-footer github" href="" target="_blank" rel="author">
+<a class="social-icon-footer github" href="https://github.com/lisbethmachado" target="_blank" rel="author">
     <i class="fab fa-github"></i>
       </a>
+      <a class="social-icon-footer linkedin" href="https://www.linkedin.com/in/lisbethdmachado/" target="_blank" rel="author">
+      <i class="fab fa-linkedin-in"></i>
+        </a>
+  <a class="social-icon-footer twitter" href="https://twitter.com/LisbethMachado" target="_blank" rel="author">
+    <i class="fab fa-twitter"></i>
+      </a>
   <br>
-<p style="color:white;><a href=" ">contact@johndoe.com</a></p>
+<p style="color:white;><a href=" ">lisbeth.webdev@gmail.com</a></p>
 </div>
     </div>
 
@@ -175,24 +166,22 @@ bodyElement.append(footer);
 /*JavaScript for toggle for light/dark mode*/
 
 var checkbox = document.querySelector('input[name=theme]');
-if(checkbox)
- {
- checkbox.addEventListener('change', function(){
-   if(this.checked)
-   {
-     trans()
-     document.documentElement.setAttribute('data-theme', 'dark')
-   }
-   else
-   {
-     trans()
-     document.documentElement.setAttribute('data-theme', 'light')
-   }
- });
+if (checkbox) {
+  checkbox.addEventListener('change', function () {
+    if (this.checked) {
+      trans()
+      document.documentElement.setAttribute('data-theme', 'dark')
+    }
+    else {
+      trans()
+      document.documentElement.setAttribute('data-theme', 'light')
+    }
+  });
 
- let trans = () => {
-   document.documentElement.classList.add('transition');
-   window.setTimeout(() => {
-     document.documentElement.classList.remove('transition')
-   }, 1000)
- }}
+  let trans = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+      document.documentElement.classList.remove('transition')
+    }, 1000)
+  }
+}
