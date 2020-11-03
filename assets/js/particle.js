@@ -3,9 +3,9 @@
 particlesJS('particles-js', {
 	particles: {
 		number: {
-			value: 140,
+			value: 0,
 			density: {
-				enable: true,
+				enable: false,
 				value_area: 800
 			}
 		},
@@ -40,7 +40,7 @@ particlesJS('particles-js', {
 		},
 		size: {
 			value: 8,
-			random: true,
+			random: false,
 			anim: {
 				enable: false,
 				speed: 10,
@@ -49,14 +49,14 @@ particlesJS('particles-js', {
 			}
 		},
 		line_linked: {
-			enable: true,
+			enable: false,
 			distance: 150,
 			color: '#808080',
 			opacity: 0.4,
 			width: 1
 		},
 		move: {
-			enable: true,
+			enable: false,
 			speed: 5,
 			direction: 'none',
 			random: false,

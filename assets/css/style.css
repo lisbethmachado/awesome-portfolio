@@ -30,6 +30,12 @@ body {
   background-color: var(--bg);
 }
 
+.home-container {
+
+  background-image: url("../../assets/images/workspace.jpg");
+  background-size: cover;
+  background-size: 100% 100%;
+}
 /* Top button */
 
 /* smooth scrolling to top */
