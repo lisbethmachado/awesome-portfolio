@@ -501,6 +501,7 @@ html.transition *:after {
 }
 
 .social-icon-footer {
+  align-items: center;
   display: flex;
   position: relative;
   overflow: hidden;
