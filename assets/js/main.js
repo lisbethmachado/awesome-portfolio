@@ -33,11 +33,12 @@ let header = $(`
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="index.html">Home</a></li>
-        <li><a class="white-text" href="experience.html">Experience</a></li>
+       <!--  <li><a class="white-text" href="experience.html">Experience</a></li> -->
         <li><a class="white-text" href="projects.html">Projects</a></li>
-        <li><a class="white-text" href="research.html">Research</a></li>
+        
+        <!-- <li><a class="white-text" href="research.html">Research</a></li>
         <li><a class="white-text" href="education.html">Education</a></li>
-        <li><a class="white-text" href="index.html">Blog</a></li>
+        <li><a class="white-text" href="index.html">Blog</a></li> -->
         <li><a class="white-text" href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
     </ul>
 </div>
@@ -46,13 +47,31 @@ let header = $(`
 <!--Side Nav Bar -->
 <ul class="sidenav" id="mobile-demo">
 <li><a href="index.html">Home</a></li>
-<li><a href="experience.html">Experience</a></li>
+<!-- <li><a href="experience.html">Experience</a></li> -->
 <li><a href="projects.html">Projects</a></li>
-<li><a href="research.html">Research</a></li>
+
+<!-- <li><a href="research.html">Research</a></li>
 <li><a href="education.html">Education</a></li>
-<li><a href="index.html">Blog</a></li>
+<li><a href="index.html">Blog</a></li> -->
+
 <li><a href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
 
+<!-- TOGGLE FOR LIGHT/DARK MODE
+<li>
+<label for="switch" class="theme-switch">
+<input class="toggle-checkbox" type="checkbox" id="switch" name="theme" />
+  <div class='toggle-slot'>
+  <div class='sun-icon-wrapper'>
+  <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"> </div>
+  </div>
+  <div class='toggle-button'></div>
+  <div class='moon-icon-wrapper'>
+  <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"> </div>
+  </div>
+  </div>
+  </label>
+</li>
+-->
 
 <!--TOGGLE FOR LIGHT/DARK MODE
         <li>
