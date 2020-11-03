@@ -6,7 +6,7 @@ particlesJS('particles-js', {
 			value: 0,
 			density: {
 				enable: false,
-				value_area: 800
+				value_area: 0
 			}
 		},
 		color: {
@@ -33,18 +33,18 @@ particlesJS('particles-js', {
 			random: false,
 			anim: {
 				enable: false,
-				speed: 1,
+				speed: 0,
 				opacity_min: 0.1,
 				sync: false
 			}
 		},
 		size: {
-			value: 8,
+			value: 0,
 			random: false,
 			anim: {
 				enable: false,
-				speed: 10,
-				size_min: 10,
+				speed: 0,
+				size_min: 0,
 				sync: false
 			}
 		},
@@ -57,7 +57,7 @@ particlesJS('particles-js', {
 		},
 		move: {
 			enable: false,
-			speed: 5,
+			speed: 0,
 			direction: 'none',
 			random: false,
 			straight: false,
