@@ -28,13 +28,9 @@ body {
   color: var(--text);
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
-}
-
-.home-container {
-
   background-image: url("../../assets/images/workspace.jpg");
   background-size: cover;
-  background-size: 100% 100%;
+  background-size: 120% 120%;
 }
 /* Top button */
 
