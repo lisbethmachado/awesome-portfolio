@@ -28,7 +28,7 @@ function topFunction() {
 let header = $(`
 <nav class="black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src=""></a>
+    <a href="#!" class="brand-logo"><img src="https://fontmeme.com/permalink/201103/85737fc5906de17ef603c7484641cfb5.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
@@ -98,7 +98,7 @@ let footer = $(`
       <div class="col-lg-7 col-md-6 pt-3" >
       <div class="col-sm-6 col-md-7">
         <a class="webintern-footer-logo" href="#">
-          <center><img src=""style="width: 220px;"/></center>
+          <center><img src="https://fontmeme.com/permalink/201103/85737fc5906de17ef603c7484641cfb5.png"style="width: 220px;"/></center>
         </a>
         <div class="simple-text text-center dark padding-sm">
           <p >
