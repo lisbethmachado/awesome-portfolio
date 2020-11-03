@@ -3,12 +3,12 @@
 const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    title: "Spacebook",
+    cardImage: "assets/images/project-page/spacebook.png",
     description:
-      "A quiz app built using basic react.",
-    Previewlink: "",
-    Githublink: "",
+      "Martians can see the current weather for Mars, check on photos from nearby rovers, and manage a task list.",
+    Previewlink: "https://spacebook-mars.herokuapp.com/signup",
+    Githublink: "https://github.com/lisbethmachado/spacebook-mars",
   },
   {
     title: "Chess Engine",

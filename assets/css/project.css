@@ -1,6 +1,6 @@
 html[data-theme = 'light']
 {
-  --bg-col: #fafafa;
+  --bg-col: #ffffff;
   --shadow1: rgba(0, 0, 0, 0.3);
   --shadow2: rgba(0, 0, 0, 0.2);
 }
